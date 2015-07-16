@@ -1,0 +1,67 @@
+extends layout
+
+block content
+  .banner
+    h1 Welcome to Fancy Pants 
+      small  A site for pants and being fancy
+  .main
+    h2 This weeks Fanciest Pants
+    p 90's dreamcatcher meh, taxidermy scenester Carles hoodie actually flannel. Tilde butcher salvia YOLO normcore fixie. Twee selvage tofu you probably haven't heard of them meggings pug disrupt Bushwick narwhal, PBR polaroid cardigan 8-bit vinyl ethical. Selfies tilde skateboard, chambray sriracha normcore 8-bit Brooklyn XOXO craft beer Vice. Thundercats drinking vinegar butcher meh quinoa banjo cold-pressed. Synth chillwave photo booth, Tumblr PBR iPhone slow-carb direct trade trust fund Kickstarter tousled. Salvia readymade letterpress artisan gentrify post-ironic.
+    p Church-key viral salvia asymmetrical tilde Pinterest. Wolf listicle selvage whatever, lumbersexual farm-to-table +1 sartorial cray quinoa vinyl Banksy blog. Hoodie flexitarian tilde plaid, fashion axe direct trade dreamcatcher forage twee. Sustainable bicycle rights food truck meh. Butcher keytar master cleanse bicycle rights swag, trust fund tattooed meditation selvage. Mumblecore pug gastropub YOLO. Cronut pork belly DIY selvage cardigan.
+    .row
+      .col6
+        h3 How awesome is this
+        p Ugh viral drinking vinegar Tumblr. Sartorial gastropub forage butcher squid. Slow-carb chia bicycle rights jean shorts. Pitchfork vinyl leggings, selfies kitsch literally squid. PBR&B salvia whatever, wolf readymade single-origin coffee deep v pickled fap master cleanse keffiyeh next level shabby chic Etsy squid. Intelligentsia photo booth occupy lumbersexual, church-key leggings fingerstache keytar wayfarers forage tattooed kogi listicle distillery. Small batch tousled scenester, raw denim artisan church-key McSweeney's Tumblr 8-bit Pinterest viral leggings.
+      .col6
+        h3 Learn more about us
+        p Forage drinking vinegar irony pour-over next level. Tilde cred Pitchfork mumblecore wayfarers, DIY meggings lo-fi salvia leggings bespoke mixtape. Ennui salvia Tumblr 3 wolf moon banjo, actually brunch single-origin coffee mumblecore. Lomo pug whatever twee, selfies small batch salvia direct trade quinoa. Narwhal PBR&B tattooed ethical. Umami pop-up health goth plaid, heirloom sriracha cred lumbersexual Schlitz meggings try-hard 3 wolf moon. Wolf bicycle rights vinyl trust fund artisan, gentrify Vice XOXO tattooed.
+    .row
+      .col6
+        h3 Our Friends
+        table
+          thead
+            tr
+              th Company
+              th Contact
+          tbody
+            tr
+              td 
+                a(href='#') Superpeeps
+              td 303-287-7538
+            tr
+              td 
+                a(href='#') Easter Peeps
+              td 209-409-4729
+            tr
+              td 
+                a(href='#') Some Guys
+              td 309-398-4982
+      .col6
+        h3 Send us feedback
+        form
+          label(for='name') Name
+          input#name(type='text' name='name')
+          label(for='email') Email
+          input#email(type='text' name='email')
+          label(for='email') Comments
+          textarea#comments(type='text' name='email' rows='8')
+          input#send.btn(type='submit' name='submit' value='Send')
+    .row
+      h3 Sign Up for updates
+      p Here about the latest and greatest from fancy pants, where the pants are fancy and the people are pantsy
+      form
+        label(for='name') Name
+        input#name(type='text' name='name')
+        label(for='email') Email
+        input#email(type='text' name='email')
+        input#subscribe.btn(type='submit' name='subscribe' value='Subscribe')
+    .footer
+      a(href='#') Home 
+      | &bull; 
+      a(href='#') About 
+      | &bull;  
+      a(href='#') Pants 
+      | &bull; 
+      a(href='#') Shop 
+      | &bull; 
+      a(href='/styleguide') Style Guide 
